@@ -1,11 +1,7 @@
 .grid{ 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0;
-    padding: 6vh;
-    font-family: sans-serif;
-    background-color: rgb(35, 7, 67);
+    display: flex;
+    padding-top: 6vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
 }

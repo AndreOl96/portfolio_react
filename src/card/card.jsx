@@ -12,7 +12,7 @@ export default function Card({
             <img className="card-img" src={imgSrc}  alt="Nome da imagem" />
             <h2>{title}</h2>
             <p className="card-text">{text}</p>
-            <a className="card-button" href={buttonLink}>Find out more</a>
+            <a className="card-button" href={buttonLink}>Find out more &#8594;</a>
 
         </div>
     );

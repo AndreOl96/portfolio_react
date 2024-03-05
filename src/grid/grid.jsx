@@ -7,7 +7,7 @@ export default function Grid() {
         <div className="grid">
             <div className="grid-item"> 
             <Card 
-            imgSrc={"https://picsum.photos/200"}
+            imgSrc={"src/assets/1602706387191.jpeg"}
             title={"Card 1"}
             text={"Some quick example text to build on the card title and make up the bulk of the card's content."}
             buttonLink={"#"}
@@ -27,7 +27,35 @@ export default function Grid() {
             title={"Card 3"}
             text={"Some quick example text to build on the card title and make up the bulk of the card's content."}
             buttonLink={"#"}
-            /></div>
+            />
+            </div>
+
+            <div className="grid-item">
+            <Card
+            imgSrc={"https://picsum.photos/200"}
+            title={"Card 3"}
+            text={"Some quick example text to build on the card title and make up the bulk of the card's content."}
+            buttonLink={"#"}
+            />
+            </div>
+
+            <div className="grid-item">
+            <Card
+            imgSrc={"https://picsum.photos/200"}
+            title={"Card 3"}
+            text={"Some quick example text to build on the card title and make up the bulk of the card's content."}
+            buttonLink={"#"}
+            />
+            </div>
+
+            <div className="grid-item">
+            <Card
+            imgSrc={"https://picsum.photos/200"}
+            title={"Card 3"}
+            text={"Some quick example text to build on the card title and make up the bulk of the card's content."}
+            buttonLink={"#"}
+            />
+            </div>
 
         </div>
     );

@@ -30,5 +30,11 @@
     margin: 0;
     padding: 0;
     color: rgb(0, 255, 34);
+    
+  }
+
+  .header{
+    flex-wrap: wrap;
+
   }
   
