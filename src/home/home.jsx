@@ -3,15 +3,18 @@ import Header from "../header/header.jsx";
 import "./home.css";
 import Grid from "../grid/grid.jsx";
 import Footer from "../footer/footer.jsx";
+import "../containerHome/conteinerHome.jsx";
+import ContainerHome from "../containerHome/conteinerHome.jsx";
 
 
 const Home = () => {
     return (
-        <div className="header-container">
+        <div className="main">
         {/* Renderize o cabeçalho */}
         <Header />
-        <Grid />
+        <ContainerHome />
         <Footer />
       </div>
+      
 )}
   export default Home; 
