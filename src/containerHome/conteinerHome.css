@@ -1,20 +1,92 @@
 .main-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
     align-content: center;
+    width: 100%;
+    gap: 30px;
 }
+
 .sub-container{
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    width: 100%;
 }
+
+.parts-container{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(31, 7, 58) 0%, rgba(28,6,54,1) 100%);
+    border-radius: 30px;
+    width: 100%;
+    margin: 5px;
+    padding: 20px;
+}
+
+.card-img-home{
+    max-width: 210px;
+    border-radius: 30px;
+}
+.img-rectangle{
+  
+    object-fit: fill;
+max-height: 40%;
+  
+}
+
+.card-button{
+
+    width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge rgb(0, 255, 34);
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.card-button::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: rgb(31, 7, 58);
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.card-button::before{
+    content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: rgb(31, 7, 58);
+  transition: 0.5s;
+}
+
+.card-button:hover::before, .card-button:hover::after {
+    transform: scale(0)
+  }
+
+  .card-button:hover {
+    box-shadow: inset 0px 0px 25px rgb(0, 255, 34);
+  }
+
+/*
 .parts-container{
     display: flex;
     flex-direction: row;
@@ -46,3 +118,9 @@
     border-radius: 30px;
     height: auto;
 }
+
+.square-box{
+
+    aspect-ratio: 1;
+    max-width: 210px;
+}*/
