@@ -13,14 +13,23 @@ body {
 }
 p, h1, h2, h3, h4, h5, a{
   font-family: 'Victor Mono', monospace;
+  font-size:12px ;
 }
 h3{
   font-weight: 500;
-  font-size: 25px;
+  font-size: 17px;
   font-weight: thin;
   letter-spacing: 2px;
   color: rgb(0, 255, 34);
 }
+
+span{
+  font-size: 10px;
+  color: rgb(209, 169, 255);
+  letter-spacing: 1px;
+}
+
+
 
 
 

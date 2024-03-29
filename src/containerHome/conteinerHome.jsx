@@ -6,63 +6,95 @@ export default function ContainerHome() {
 
         <div className="main-container">
 <div className="sub-container 1">
-    <div className="parts-container">
+    <div className="parts-container conteiner-row">
         <img className="card-img-home" src="src/assets/1602706387191.jpeg" alt="Nome da imagem" />
+       <div className="card-home">
+       <span>Web Developer</span>
         <h3>André Olveira</h3>
-        <p>BOX 1</p>
-        <button className="card-button"> Contact Me </button>
+        <p>Jovem muito bem conhecido por ser um desenvolvedor web, porém gosta de programar.</p>
+        <button className="card-button"> 
+       Let's Talk
+     </button>
+       </div>
+        
     </div>
     <div className="parts-container">
-    <img className="card-img-home img-rectangle" src="src/assets/1602706387191.jpeg" alt="Nome da imagem" />
-        <p>BOX 2</p></div>
+    <img className=" svgSmall" src="/src/assets/educationSVG.svg" alt="Nome da imagem" />
+    <div className="conteiner-row">
+        <div><span>More About Me</span>
+        <p>Education</p></div>
+        <button className="card-button"> 
+        Let's go
+     </button>
+      
+     </div>
+    </div>
+       
     <div className="parts-container">
-    <img className="card-img-home" src="src/assets/1602706387191.jpeg" alt="Nome da imagem" />
-        <p>BOX 3</p></div>
+    <img className="svgSmall2" src="src/assets/portofolioSVG.svg" alt="Nome da imagem" />
+    <div className="conteiner-row">
+        <div><span>SHOWCASE</span>    
+        <p>Portfolio</p></div>
+        <button className="card-button"> 
+       Let's go
+     </button>
+      
+     </div>
+    </div>
+
 </div>
 <div className="sub-container 2">
-    <div className="parts-container"><p>BOX 1</p></div>
-    <div className="parts-container"><p>BOX 2</p></div>
-    <div className="parts-container"><p>BOX 3</p></div>
+    <div className="parts-container2">
+        <div className="icons">
+    <img className=" iconSmall" src="/src/assets/html5.webp" alt="Nome da imagem" />
+    <img className=" iconSmall" src="/src/assets/css.webp" alt="Nome da imagem" />
+    <img className=" iconSmall" src="/src/assets/js.png" alt="Nome da imagem" />
+    <img className=" iconSmall" src="/src/assets/react.png" alt="Nome da imagem" />
+    <img className=" iconSmall" src="/src/assets/typescript.png" alt="Nome da imagem" />
+    <img className=" iconSmall" src="/src/assets/node.png" alt="Nome da imagem" />
+    </div>
+    <div className="conteiner-row">
+        <div><span>SPECIALIZATION</span>
+        <p>Services Offering</p></div>
+        <button className="card-button"> 
+        Let's go
+     </button>
+      
+     </div>
+    </div>
+    <div className="parts-container2">
+        <div className="icons">
+            <a href="https://www.linkedin.com/in/andr%C3%A9-oliveira-040496/">
+    <img className=" iconSmall"  src="/src/assets/linkedin.webp" alt="Nome da imagem" />
+    </a>
+    <a href="https://github.com/AndreOl96">
+    <img className=" iconSmall"  src="/src/assets/github.png" alt="Nome da imagem" />
+    </a>
+    <a href="https://www.behance.net/andreoliveira18">
+    <img className=" iconSmall"  src="/src/assets/behance.png" alt="Nome da imagem" />
+    </a>    </div>
+    <div className="conteiner-row">
+        <div><span>STAY WITH ME</span>
+        <p>Social</p></div>
+        <button className="card-button"> 
+        Let's go
+     </button>
+      
+     </div>
+    </div>
+    <div className="parts-container">
+    <img className="svgSmall3" src="src/assets/work.svg" alt="Nome da imagem" />
+    <div className="conteiner-row">
+       
+        <button className="card-button"> 
+       Let's work togher !
+     </button>
+      
+     </div>
+    </div>
 </div>
-<div className="sub-container 3">
-    <div className="parts-container"><p>BOX 1</p></div>
-    <div className="parts-container"><p>BOX 2</p></div>
-    <div className="parts-container"><p>BOX 3</p></div>
-</div>
-
-
         </div>
 
-        // <div className="main-container">
-        //     <div className="sub-container"> <p></p>
-
-        //     <div className="parts-container">
-        //     <div className="card-home">
-        //         <div><img className="card-img-home" src="src/assets/1602706387191.jpeg" alt="Nome da imagem" /></div>
-        //     <div> <p>Nome 1</p>
-        //     <h3>André Olveira</h3>
-        //     <p>Some quick example text to build</p></div>
-           
-        //     </div>
-        //     </div>
-            
-        //         <div className="card-home square-box" ><p>MORE ABOUT ME</p>
-        //         <img className="card-img-home" src="src/assets/1602706387191.jpeg" alt="Nome da imagem" />
-        //         </div>
-        //         <div>
-        //         <div className="card-home square-box" > 
-        //         <p>Nome 1</p>
-        //     <p>Some quick example text to build</p></div>
-       
-      
-        //         </div>
-            
-            
-            
-            
-        //     </div>
-               
-        //     </div>
     );
 }
 
