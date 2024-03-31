@@ -40,8 +40,22 @@
     flex-wrap: nowrap;
     gap: 40px;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
+    width: calc(33.33%);
     justify-content: space-around;
+}
+.insideCard{
+  width: 100%;
+}
+
+@media screen and (max-width: 1060px) {
+  .card-img-home{
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+ 
 }
 .card-button {
     display: inline-block;

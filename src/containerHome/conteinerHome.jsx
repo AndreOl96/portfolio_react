@@ -20,7 +20,7 @@ export default function ContainerHome() {
     </div>
     <div className="parts-container">
     <img className=" svgSmall" src="/src/assets/educationSVG.svg" alt="Nome da imagem" />
-    <div className="conteiner-row">
+    <div className="conteiner-row insideCard">
         <div><span>More About Me</span>
         <p>Education</p></div>
         <button className="card-button"> 
@@ -32,7 +32,7 @@ export default function ContainerHome() {
        
     <div className="parts-container">
     <img className="svgSmall2" src="src/assets/portofolioSVG.svg" alt="Nome da imagem" />
-    <div className="conteiner-row">
+    <div className="conteiner-row insideCard">
         <div><span>SHOWCASE</span>    
         <p>Portfolio</p></div>
         <button className="card-button"> 
@@ -53,7 +53,7 @@ export default function ContainerHome() {
     <img className=" iconSmall" src="/src/assets/typescript.png" alt="Nome da imagem" />
     <img className=" iconSmall" src="/src/assets/node.png" alt="Nome da imagem" />
     </div>
-    <div className="conteiner-row">
+    <div className="conteiner-row insideCard">
         <div><span>SPECIALIZATION</span>
         <p>Services Offering</p></div>
         <button className="card-button"> 
@@ -73,7 +73,7 @@ export default function ContainerHome() {
     <a href="https://www.behance.net/andreoliveira18">
     <img className=" iconSmall"  src="/src/assets/behance.png" alt="Nome da imagem" />
     </a>    </div>
-    <div className="conteiner-row">
+    <div className="conteiner-row insideCard">
         <div><span>STAY WITH ME</span>
         <p>Social</p></div>
         <button className="card-button"> 
@@ -84,7 +84,7 @@ export default function ContainerHome() {
     </div>
     <div className="parts-container">
     <img className="svgSmall3" src="src/assets/work.svg" alt="Nome da imagem" />
-    <div className="conteiner-row">
+    <div className="conteiner-row insideCard">
        
         <button className="card-button"> 
        Let's work togher !

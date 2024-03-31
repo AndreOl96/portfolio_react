@@ -11,9 +11,9 @@ const Home = () => {
     return (
         <div className="main">
         {/* Renderize o cabeçalho */}
-        <Header />
+       
         <ContainerHome />
-        <Footer />
+       
       </div>
       
 )}
