@@ -67,7 +67,7 @@ import Card from '../card/card.jsx';
 const PortfolioPage = () => {
   return (
     <div className="portfolio-page">
-      <h1>Meu Portfólio</h1>
+      
       <Card />
     </div>
   );
