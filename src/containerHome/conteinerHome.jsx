@@ -11,9 +11,10 @@ export default function ContainerHome() {
        <div className="card-home">
        <span>Web Developer</span>
         <h3>André Olveira</h3>
-        <p>Jovem muito bem conhecido por ser um desenvolvedor web, porém gosta de programar.</p>
+        <p>A boy passionate about spectacular visual experiences and web development.</p>
         <button className="card-button"> 
-       Let's Talk
+        <a href="/contact">Find Out More</a> 
+      
      </button>
        </div>
         
@@ -24,7 +25,7 @@ export default function ContainerHome() {
         <div><span>More About Me</span>
         <p>Education</p></div>
         <button className="card-button"> 
-        Let's go
+        <a href="/about">Let's go</a> 
      </button>
       
      </div>
@@ -36,7 +37,8 @@ export default function ContainerHome() {
         <div><span>SHOWCASE</span>    
         <p>Portfolio</p></div>
         <button className="card-button"> 
-       Let's go
+        <a href="/contact">Let's Go</a> 
+
      </button>
       
      </div>
@@ -57,7 +59,8 @@ export default function ContainerHome() {
         <div><span>SPECIALIZATION</span>
         <p>Services Offering</p></div>
         <button className="card-button"> 
-        Let's go
+        <a href="/contact">Let's Talk</a> 
+
      </button>
       
      </div>
@@ -77,7 +80,8 @@ export default function ContainerHome() {
         <div><span>STAY WITH ME</span>
         <p>Social</p></div>
         <button className="card-button"> 
-        Let's go
+        <a href="/contact">Let's Talk</a> 
+
      </button>
       
      </div>
@@ -87,7 +91,8 @@ export default function ContainerHome() {
     <div className="conteiner-row insideCard">
        
         <button className="card-button"> 
-       Let's work togher !
+        <a href="/contact">Let's Work Toghether</a> 
+
      </button>
       
      </div>
